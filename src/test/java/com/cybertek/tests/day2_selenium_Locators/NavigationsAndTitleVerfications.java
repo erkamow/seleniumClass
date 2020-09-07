@@ -1,4 +1,4 @@
-package day2_selenium_Locators;
+package com.cybertek.tests.day2_selenium_Locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -26,7 +26,7 @@ public class NavigationsAndTitleVerfications {
         String actualTitle = driver.getTitle();
 
         if(actualTitle.contains(expectedInTitle)){
-            System.out.println("title verfication Passed!!!");
+            System.out.println("title verification Passed!!!");
         }else{
             System.out.println("title verification Failed!!!");
         }

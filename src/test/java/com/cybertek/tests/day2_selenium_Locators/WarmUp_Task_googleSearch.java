@@ -1,4 +1,4 @@
-package day2_selenium_Locators;
+package com.cybertek.tests.day2_selenium_Locators;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
