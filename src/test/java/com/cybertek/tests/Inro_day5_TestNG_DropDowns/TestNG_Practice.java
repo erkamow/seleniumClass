@@ -46,6 +46,7 @@ public class TestNG_Practice {
        String expectedTitle = "apple";
        String actualTitle = driver.getTitle();
 
+
        Assert.assertTrue(actualTitle.contains(expectedTitle),"Title does not contain search value");
    }
 
