@@ -1,4 +1,4 @@
-package com.cybertek.tests.Inro_day5_TestNG_DropDowns;
+package com.cybertek.tests.day5_TestNG_dropdown;
 
 import org.testng.Assert;
 import org.testng.annotations.*;

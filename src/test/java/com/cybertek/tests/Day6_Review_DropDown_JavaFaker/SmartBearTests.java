@@ -1,7 +1,7 @@
-package com.cybertek.tests.Review_DropDown_JavaFaker;
+package com.cybertek.tests.Day6_Review_DropDown_JavaFaker;
 
-import com.cybertek.utilites.SmartBearUtilities;
-import com.cybertek.utilites.WebDriverFactory;
+import com.cybertek.utilities.SmartBearUtilities;
+import com.cybertek.utilities.WebDriverFactory;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

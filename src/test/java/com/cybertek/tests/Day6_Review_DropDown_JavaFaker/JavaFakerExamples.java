@@ -1,4 +1,4 @@
-package com.cybertek.tests.Review_DropDown_JavaFaker;
+package com.cybertek.tests.Day6_Review_DropDown_JavaFaker;
 
 import com.github.javafaker.Faker;
 import org.testng.annotations.Test;

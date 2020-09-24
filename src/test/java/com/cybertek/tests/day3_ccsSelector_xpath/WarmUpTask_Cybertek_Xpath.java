@@ -1,6 +1,6 @@
 package com.cybertek.tests.day3_ccsSelector_xpath;
 
-import com.cybertek.utilites.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

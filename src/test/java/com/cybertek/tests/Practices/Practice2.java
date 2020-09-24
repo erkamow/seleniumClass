@@ -1,6 +1,6 @@
 package com.cybertek.tests.Practices;
 
-import com.cybertek.utilites.WebDriverFactory;
+import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
