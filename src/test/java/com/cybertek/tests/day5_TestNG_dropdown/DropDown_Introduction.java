@@ -130,7 +130,7 @@ public class DropDown_Introduction {
         facebookLink.click();
         //5. Verify title is “Facebook - Log In or Sign Up”
         String actualTitle = driver.getTitle();
-        String expectedTitle = "Facebook - Log In or Sign Up";
+        String expectedTitle = "Facebook - Log In or sign Up";
         Assert.assertEquals(actualTitle,expectedTitle,"title verification failed!");
 
     }
