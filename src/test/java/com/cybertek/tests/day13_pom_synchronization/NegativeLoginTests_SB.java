@@ -18,13 +18,14 @@ public class NegativeLoginTests_SB {
         //Lets start using PageObjectModel
 
         //#1- We need to create the object of the class we want to use
-        loginPage = new LoginPage();
+        loginPage  = new LoginPage();
         //When we create the instance of this class, the constructor immediately
         //initializes our Driver and the object 'loginPage'
 
         //#2- Call the object to use the web elements
         // Entering incorrect username
-        loginPage.usernameInput.sendKeys("asdfafa");
+
+        loginPage.usernameInput.sendKeys("erkam");
 
         // Enter CORRECT password
         String password = ConfigurationReader.getProperty("smartbear_password");
@@ -44,7 +45,7 @@ public class NegativeLoginTests_SB {
         String url = ConfigurationReader.getProperty("smartbearUrl");
         Driver.getDriver().get(url);
 
-        loginPage = new LoginPage();
+         loginPage = new LoginPage();
 
         String username = "wrongusername";
         String password = ConfigurationReader.getProperty("smartbear_password");
